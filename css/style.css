@@ -2882,7 +2882,7 @@ blockquote:before {
 ---------------------------------------------------------------*/
 
 .top-bar {
-    background-color: #ffffff;
+    background-color: #2d3239;
     color: #ffffff;
     padding: 10px 0;
 }
@@ -3156,7 +3156,7 @@ blockquote:before {
 ---------------------------------------------------------------*/
 
 .main-bar {
-    background: #000000;
+    background: #FFFFFF;
     width: 100%;
     position: relative;
 }
@@ -3165,7 +3165,7 @@ blockquote:before {
 
 .header-curve .logo-header:before,
 .header-curve .logo-header:after {
-    background-color: #000000;
+    background-color: #fff;
     content: "";
     position: absolute;
     bottom: 0;
@@ -3264,10 +3264,10 @@ blockquote:before {
 
 .header-nav .nav>li>a {
     border-radius: 0px;
-    color: #ffffff;
+    color: #000000;
     font-size: 14px;
     font-weight: 600;
-    padding: 30px 28px;
+    padding: 35px 30px;
     cursor: pointer;
     display: inline-block;
 }
@@ -3320,7 +3320,7 @@ blockquote:before {
 }
 
 .header-nav .nav>li .sub-menu li {
-    border-bottom: 1px solid #ffffff;
+    border-bottom: 1px solid #f4f4f4;
     position: relative;
 }
 
@@ -3580,7 +3580,7 @@ blockquote:before {
         -moz-transition: all 0.5s;
         -o-transition: all 0.5s;
         top: 0;
-        background-color: #ffffff;
+        background-color: #fff;
         margin: 0;
         z-index: 99;
     }
@@ -3697,7 +3697,7 @@ blockquote:before {
         position: static;
         visibility: visible;
         width: auto;
-        background: #000000;
+        background: #f6f6f6;
     }
     .header-nav .nav>li ul.mega-menu ul {
         display: none;
@@ -12221,51 +12221,3 @@ ol.commentlist li .star-rating {
     vertical-align: middle;
     margin-left: 2px;
 }
-
-.carousel-item {
-    background: no-repeat center center scroll;
-    background-size: cover;
-}
-
-.carousel-caption {
-    background-color: rgba(0, 0, 0, 0.5);
-    padding: 20px;
-}
-
-.carousel-caption h5 {
-    font-size: 2.5rem;
-    font-weight: bold;
-    color: #fff;
-}
-
-.carousel-caption p {
-    font-size: 1.25rem;
-    color: #ddd;
-}
-
-.content {
-    padding: 20px;
-}
-
-.content img {
-    width: 100%;
-    height: auto;
-}
-
-.content h2 {
-    font-size: 2rem;
-    margin-bottom: 20px;
-}
-
-.content p {
-    font-size: 1rem;
-}
-
-@media (min-width:360px) {
-    .container {
-        margin-top: 0px;
-        padding-top: 0px;
-    }
-}
-
-.
